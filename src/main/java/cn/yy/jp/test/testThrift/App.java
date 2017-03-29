@@ -1,4 +1,4 @@
-package com.yy.jp.TestBTrace;
+package cn.yy.jp.test.testThrift;
 
 /**
  * Hello world!

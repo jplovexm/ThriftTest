@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.yy.jp</groupId>
-  <artifactId>TestBTrace</artifactId>
+  <groupId>cn.yy.jp.test</groupId>
+  <artifactId>testThrift</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>TestBTrace</name>
+  <name>testThrift</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,16 +15,20 @@
   </properties>
 
   <dependencies>
-  	<dependency>
-			<groupId>com.sun.tools.btrace</groupId>
-			<artifactId>btrace-boot</artifactId>
-			<version>1.2.3</version>
-		</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+	<!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+	<!-- https://mvnrepository.com/artifact/org.apache.thrift/libthrift -->
+	<dependency>
+	    <groupId>org.apache.thrift</groupId>
+	    <artifactId>libthrift</artifactId>
+	    <version>0.10.0</version>
+	</dependency>
+
   </dependencies>
 </project>
